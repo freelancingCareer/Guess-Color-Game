@@ -1,0 +1,130 @@
+body {
+	background-color: #000;
+	font-family: "Raleway", Sans-serif;
+	font-size: 62.5%; /*1 em = 10px */
+	margin: 0;
+	padding: 25px 15px;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+	o-transition: background .5s;
+} 
+
+h1 {
+	color: white;
+	background-color: #000;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#color-display {
+	display: block;
+	font-size: 2em;
+}
+
+#stripe {
+	background: #000;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+#message {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 20%;
+}
+
+button {
+	outline: none;
+	color: #fff;
+	font-family: "Raleway", Sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background-color: #000;
+	height: 100%;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	o-transition: all 0.3s;
+	
+}
+
+button:hover {
+	background-color: #1C8E99;
+	color: white;
+}
+
+.selected {
+	background-color: #000;
+	color: white;
+}
+
+.square {
+	border-radius: 20%;
+}
+
+* {
+	border: 0px solid red;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 600px) {
+	body {
+		font-size: 50.5%;
+		padding: 20px 15px;
+	}
+	
+	#container {
+		max-width: 490px;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	
+	h1 {
+		font-size: 2.9em;
+	}
+}
+
+@media all and (max-width: 450px) {
+	body {
+		font-size: 48.5%;
+		padding: 15px 10px;
+	}
+	
+	#container {
+		max-width: 400px;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}
+}
